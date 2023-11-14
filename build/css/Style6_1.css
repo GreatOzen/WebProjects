@@ -1,0 +1,104 @@
+h1.zd {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /*обеспечивает совместимость с Mozilla Firefox*/
+    -webkit-box-sizing: border-box; /*обеспечивает совместимость с WebKit*/
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+p.red {
+    color: red;
+    font-size: 20px;
+}
+
+body {
+    height: 1200px;
+}
+
+.block_div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#special_div {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: pink;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.block_div_1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#special_div_1 {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    background-color: yellow;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.text_div {
+    margin-top: 200px;
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    margin-left: 150px;
+    position: relative;
+}
+
+.sticky_div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 10px;
+    z-index: 1;
+}
+
+#sticky_div_id {
+    position: fixed;
+    left: 10px;
+    z-index: 0;
+    top: 80px;
+}
+
+dt {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 1em 0;
+    bottom: 10px;
+}
+
+h1.azbuka {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: yellow;
+}
+
+#work_6{
+    width: 200px;
+    height: 200px;
+}
