@@ -1,0 +1,78 @@
+p1 {
+    color: red;
+}
+p {
+    font-size: 20px;
+}
+body {
+    background: #c7b39b url(../image/kir.jpg); /* тут цвет фона и путь к файлу */
+    color: #fff; /* а тут цвет текста */
+}
+.reg {
+    background: #c7b39b; /* Цвет фона */
+    border: 2px solid black;  /* Параметры рамки */
+    padding: 20px; /* Поля вокруг текста */
+}
+fieldset {
+    border: 3px solid;
+}
+table, th, td {
+    border: 3px solid;
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, "Times New Roman";
+    color: white;
+    background-color: brown;
+}
+#one {
+    background-color: red;
+}
+.phone {
+    font-size: 0.8em;
+    color: gray;
+}
+h1 {
+    text-align: center;
+}
+h1.yellow {
+    color: yellow;
+}
+a[href] {    
+    background-color: white;
+    color: yellow;
+}
+
+input { 
+    background-color: gray;
+    color: black;
+    /*border-color: yellow;*/
+}
+p.glav1 {
+    background-color: orange;
+}
+input[type="password"], input[type="text"], input[type="button"] {
+    padding: 10px;
+    border: 2px solid white;
+    width: 200px;
+}
+
+input[type="submit"] {
+    padding: 12px;
+    margin: 10px;
+    border: 2px solid white;
+    width: 200px;
+    background-color: red;
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+    width: 26px;
+    height: 26px;
+}
+
+input[type="file"] {
+    padding: 5px;
+    border: 2px solid white;
+    width: 250px;
+    background-color: gray;
+}

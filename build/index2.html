@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" /> <!--задаем кодировку-->
+		<meta name = "author" content="Mishunya">
+		<meta name = "description" content="Кирпичи">
+		<title>Кирпичный завод на цебульской</title>
+		<link rel="icon" href="image/favicon.ico" type="image/x-icon"> 
+		<link href="css/Style1.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class = "reg">
+			<article>
+				<table> <!-- табличка про кирпичами -->
+					<tr>
+						<th colspan="6"><p id="one">Кирпичи</p></th>
+					</tr>
+					<tr>
+						<th><p class="glav1"><strong>Вид кирпича</strong></p></th>
+						<th><p><strong>Плотность на килограмм в кубе</strong></p></th>
+						<th><p><strong>Цена за тонну (рубли)</strong></p></th>
+					</tr>
+					<tr>
+						<td><p>Силикатный</p></td>
+						<td><p>1000-2200</p></td>
+						<td><p>13000</p></td>
+					</tr>
+					<tr>
+						<td><p>Керамический полнотелый</p></td>
+						<td><p>2100</p></td>
+						<td><p>17000</p></td>
+					</tr>
+					<tr>
+						<td><p>Керамический пустотелый (42-45%)</p></td>
+						<td><p>1100-1150</p></td>
+						<td><p>21000</p></td>
+					</tr>
+				</table>
+				<br>
+			</article>
+			<article>
+				<h1 class="yellow">Чтобы купить кирпичи заполните форму</h1>
+				<form action="index2.html" method="POST"> <!--моя форма-->
+					<fieldset>
+						<legend><p class="forma">Форма заказа:</p></legend>
+						<p>Номер телефона:</p> <input type="text" name="user_name">
+						<p>Пароль:</p> <input type="password" name="user_password">
+						<p>Емейл:</p> <input type="email" name="user_email">
+						<p>Есть ли вам 18 лет?<p><input type="checkbox">
+						<p>Подтвердите, скинув фотографию паспотра:<p><input type="file" class="nomer2">
+						<p>Выберите тип кирпича:</p>
+						<select>
+							<option></option>
+						<optgroup label="Тип кирпичей">
+							<option>Силикатный</option>
+							<option>Керамический полнотелый</option>
+							<option>Керамический пустотелый (42-45%)</option>
+						</optgroup>
+						<select>
+						<p>Выберите количество килограмм кирпича:</p>
+						<input type="text" name="kolvo">
+						<br> <!--небольшое расстояние-->
+						<p> <input type="submit" value="Заказать"></p> <!--кнопочка заказать-->	
+					</fieldset>
+				</form>
+				<br> <!--небольшое расстояние-->
+				<div class="phone">Звоните в нашу замечательную компанию, если есть вопросы: <p>+7(914)-600-55-53</p> </div> <!-- вот мой номерок - звоните-->
+				<a href="https://vk.com/sikzh"> Это автор локалки)</a>	
+			</article>
+		</div>
+	</body>
+</html>

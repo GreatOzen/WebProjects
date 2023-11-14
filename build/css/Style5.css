@@ -1,0 +1,129 @@
+h1.zd {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /*обеспечивает совместимость с Mozilla Firefox*/
+    -webkit-box-sizing: border-box; /*обеспечивает совместимость с WebKit*/
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+/*Задача 1.1*/
+.box p {
+    color: red;
+}
+.sox > p {
+    background-color: red;
+}
+.cox ~ p {
+    background-color: red;
+}
+.dox + p {
+    background-color: lightblue;
+}
+/*Задача 1.2*/
+a.hover-link {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+a.hover-link:hover {
+    color: red;
+    font-weight: bold;
+}
+/*Задача 2*/
+a.crazy-link {
+    color: black;
+    font-weight: normal;
+}
+a.crazy-link:visited  {
+    color: green;
+    font-weight: bold;
+}
+a.crazy-link:active {
+    color: red;
+    font-weight: bold;
+}
+a.crazy-link:hover {
+    color: yellow;
+    font-weight: bold;
+}
+/*Задача 3*/
+p.FChild:first-child {
+    color: red;
+}
+div.container{
+    font-weight: bold;
+}
+/*Задача 3.1*/
+p.FChildI > i:first-child {
+    color: red;
+}
+/*Задача 3.2*/
+p.FChildIone:first-child i {
+    color: red;
+}
+/*Задача 4*/
+ul.FCh li:first-child {
+    color: red;
+    font-weight: bold;
+}
+/*Задача 5*/
+ul.LCh li:last-child {
+    color: yellow;
+    font-family: sans-serif;
+}
+/*Домашняя работа*/
+div.containerr{
+    font-weight: normal;
+}
+section article:last-child div.containerr h1 {
+    color: blue;
+}
+section article:last-child h2 {
+    background-color: blue;
+    color: white;
+}
+section article:last-child span {
+    font-size: 200%;
+}
+
+
+
+
+
+
+/*
+nth:last-child {
+    color: red;
+    font-weight: bold;
+}
+span,
+div em {
+    padding: 5px;
+    border: 1px solid green;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+tr:nth-child(2n + 1) {
+    background-color: yellow;
+}
+.second span:nth-child(2n + 1) {
+    background-color: yellow;
+}
+#special {
+    background-color: yellow;
+}
+
+.alert {
+    border: 1px solid gray;
+}
+
+.alert.stop {
+    background-color: red;
+}
+
+.alert.go {
+    background-color: green;
+}
+*/

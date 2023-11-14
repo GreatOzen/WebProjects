@@ -1,0 +1,103 @@
+/* Это задача номер 1 */
+h1.zd {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /*обеспечивает совместимость с Mozilla Firefox*/
+    -webkit-box-sizing: border-box; /*обеспечивает совместимость с WebKit*/
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+div.zd1 {
+    padding: 30px;
+    margin: 20px;
+    width: 500px;
+}
+img.ozen {
+    width: 60%;
+    height: auto;
+}
+/* Это задача номер 2 */
+div.zd2 {
+    margin: 20px;
+    width: 600px;
+    background-color: gray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center; /*выравнивание картиночки по горизонтали*/
+}
+/* Это задача номер 3 */
+div.zd3 {
+    padding: 30px;
+    margin: 20px;
+    width: 600px;
+    background-color: gray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center; /*выравнивание картиночки по горизонтали*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /*обеспечивает совместимость с Mozilla Firefox*/
+    -webkit-box-sizing: border-box; /*обеспечивает совместимость с WebKit*/
+}
+/* Это задача номер 4 */
+div.zd4 {
+    padding: 30px;
+    margin: 20px;
+    width: 600px;
+    background-color: gray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center; /*выравнивание картиночки по горизонтали*/
+    box-sizing: content-box; 
+    -moz-box-sizing: content-box; /*обеспечивает совместимость с Mozilla Firefox*/
+    -webkit-box-sizing: content-box; /*обеспечивает совместимость с WebKit*/
+    -ms-box-sizing: content-box; /*обеспечивает совместимость с Microsoft Internet Explorer*/
+}
+img.Ozen2 {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+}
+span {
+    display: block;
+}
+/** {
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+}*/
+*/ Это я проверил, как работает, закоментил и забыл) */
+address {
+    display: block; /* это просто для себя, я знаю, что оно так по умолчанию */ 
+}
+area {
+    display: inline;
+} 
+audio {
+    display: inline-block;
+} 
+/* Это задача номер 5 */
+span.p1 {
+    padding: 10px;
+    border: 2px solid;
+    background-color: gray;
+}
+span.p2 {
+    padding: 10px;
+    margin: 20px;
+    background-color: gray;
+    border: 2px solid;
+}
+span.p3 {
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    border: 2px solid;
+}
